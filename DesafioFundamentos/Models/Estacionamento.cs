@@ -67,7 +67,8 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Os veículos estacionados são:");
                 // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
 
-                for(int i = 0 ;i < veiculos.Count;i++){
+                for(int i = 0 ;i < veiculos.Count;i++)
+                {
  
                 Console.WriteLine($"  Os veiculos estacionados são : {veiculos[i]}"  );
 
